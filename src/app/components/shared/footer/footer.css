@@ -1,0 +1,25 @@
+.footer {
+  background-color: rgb(66, 66, 255);
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "imagen1 . . . imagen2"
+  ;
+}
+.imagen1 {
+  /* background-color: yellowgreen; */
+  grid-area: imagen1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen2 {
+  /* background-color: yellowgreen; */
+  grid-area: imagen2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

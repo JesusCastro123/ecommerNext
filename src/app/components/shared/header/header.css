@@ -1,0 +1,33 @@
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(115, 115, 255, 0.838);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "containerLogo1 titulo titulo titulo containerLogo2";
+}
+.containerLogo1 {
+  /* background-color: yellowgreen; */
+  grid-area: containerLogo1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerLogo2 {
+  /* background-color: yellowgreen; */
+  grid-area: containerLogo2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
